@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutPage /> should match SnapShot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AboutPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Hero
+          color=""
+          description="Add your content below."
+          image=""
+          textAlign="left"
+          textColor=""
+          title="About"
+/>,
+        <div
+          className="row"
+>
+          <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.
+          </p>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "color": "",
+          "description": "Add your content below.",
+          "image": "",
+          "textAlign": "left",
+          "textColor": "",
+          "title": "About",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.
+</p>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.",
+          },
+          "ref": null,
+          "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.",
+          "type": "p",
+        },
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Hero
+            color=""
+            description="Add your content below."
+            image=""
+            textAlign="left"
+            textColor=""
+            title="About"
+/>,
+          <div
+            className="row"
+>
+            <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.
+            </p>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": "",
+            "description": "Add your content below.",
+            "image": "",
+            "textAlign": "left",
+            "textColor": "",
+            "title": "About",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.
+</p>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.",
+            },
+            "ref": null,
+            "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis varius elit. Vestibulum vel pellentesque lectus. Mauris vitae rutrum sapien, in scelerisque metus. Duis eget ullamcorper ex, non consectetur orci. Sed et diam massa. Donec nec purus ex. Nunc diam dui, tempus ut blandit nec, aliquam vitae elit.",
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
