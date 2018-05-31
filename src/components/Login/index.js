@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import * as actions from './actions';
 import { Button, Input } from '@collab-ui/react';
 
-export class LoginPage extends React.PureComponent {
+class LoginPage extends React.PureComponent {
   state = {
     email: '',
     formErrors: { email: '' },
@@ -58,7 +58,8 @@ export class LoginPage extends React.PureComponent {
     this.props.history.push('/');
   };
 
-  isFormError = () => this.state.formTouched && (!this.state.formValid && this.state.email);
+  isFormError = () =>
+    this.state.formTouched && (!this.state.formValid && this.state.email);
 
   render() {
     const webexLogo = require('@collab-ui/core/images/cisco-webex/wordmark/cisco-webex-wordmark-black.svg');
@@ -73,10 +74,7 @@ export class LoginPage extends React.PureComponent {
             <div
               className="cui-input__messages error"
               style={{
-                display:
-                  this.isFormError()
-                    ? 'block'
-                    : 'none',
+                display: this.isFormError() ? 'block' : 'none',
               }}>
               <div className="message">{this.state.formErrors.email}</div>
             </div>
@@ -87,11 +85,7 @@ export class LoginPage extends React.PureComponent {
               placeholder="Email Address"
               onDoneEditing={this.handleBlur}
               onChange={this.handleEmailInput}
-              className={`${
-                this.isFormError()
-                  ? ` error`
-                  : ''
-              }`}
+              className={`${this.isFormError() ? ` error` : ''}`}
             />
             <div className="cui-panel__cta">
               <Button
@@ -104,6 +98,7 @@ export class LoginPage extends React.PureComponent {
             </div>
           </form>
           <div className="cui-panel__secondary-action">
+            {/* eslint-disable jsx-a11y/anchor-is-valid */}
             Need help signing in? <a href="#">Contact Support</a>
           </div>
         </div>
@@ -115,6 +110,7 @@ export class LoginPage extends React.PureComponent {
             By using Webex Teams you accept the
             <a href="#">Terms of Service</a>,{' '}
             <a href="#">Privacy Statement, Notices & Disclaimers</a>.
+            {/* eslint-enable jsx-a11y/anchor-is-valid */}
           </div>
         </div>
       </div>
@@ -124,22 +120,20 @@ export class LoginPage extends React.PureComponent {
 
 LoginPage.propTypes = {
   actions: PropTypes.object.isRequired,
-  loggedIn: PropTypes.bool.isRequired
-}
+  loggedIn: PropTypes.bool.isRequired,
+  history: PropTypes.object.isRequired,
+};
 
 function mapStateToProps(state) {
   return {
-    loggedIn: state.user.loggedIn
+    loggedIn: state.user.loggedIn,
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(actions, dispatch)
+    actions: bindActionCreators(actions, dispatch),
   };
 }
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(LoginPage);
+export default connect(mapStateToProps, mapDispatchToProps)(LoginPage);

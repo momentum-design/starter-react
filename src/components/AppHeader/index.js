@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
 import {bindActionCreators} from 'redux';
 import { Link, NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -9,14 +10,14 @@ import {
   TopbarNav,
   TopbarMobile,
   TopbarRight,
-  Popover,
+  // Popover,
   Button
 } from '@collab-ui/react';
 import * as actions from '../Login/actions';
 
 class AppHeader extends Component {
   logoutUser = () => {
-    console.log('log out user');
+    console.log('log out user'); // eslint-disable-line no-console
     this.props.actions.logoutUser();
   };
 
@@ -26,7 +27,7 @@ class AppHeader extends Component {
       const number = Math.floor(Math.random() * 101);
       const gender = Math.random() >= 0.5 ? 'women' : 'men';
       return `https://randomuser.me/api/portraits/${gender}/${number}.jpg`;
-    }
+    };
     const navItems = (
       <Fragment>
         <ListItem
@@ -68,22 +69,22 @@ class AppHeader extends Component {
           content={topBarPopoverContent}
           popoverTrigger="Click"
           closeOnClick> */}
-          <div
-            className="cui-avatar"
-            tabIndex="0"
+          <button
+            className="cui-avatar cui-button--none"
             aria-haspopup="true"
             onClick={this.logoutUser}>
             <img
               className="user-image"
               src={getAvatar()}
+              alt="user"
             />
-          </div>
+          </button>
         {/*</Popover> */}
       </div>
     ) : (
       <div className="cui-top-bar__logged-out">
         <Link to="/login">Log In</Link>
-        {/* <button className="cui-button cui-button--blue">Sign Up</button> */}
+        <Button color="blue">Sign Up</Button>
       </div>
     );
 
@@ -107,6 +108,11 @@ class AppHeader extends Component {
     );
   }
 }
+
+AppHeader.propTypes = {
+  actions: PropTypes.object.isRequired,
+  isLoggedIn: PropTypes.bool
+};
 
 function mapStateToProps(state) {
   return {

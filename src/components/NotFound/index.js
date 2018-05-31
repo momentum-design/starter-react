@@ -16,7 +16,9 @@ const NotFoundPage = () => {
           </Link>
         </div>
         <div className="cui-panel__secondary-action">
+          {/* eslint-disable jsx-a11y/anchor-is-valid */}
           <a href="#">Contact Support</a>
+          {/* eslint-enable jsx-a11y/anchor-is-valid */}
         </div>
       </div>
       <div className="cui-panel__footer">
