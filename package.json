@@ -30,7 +30,7 @@
   "author": "Cisco Systems, Inc.",
   "license": "MIT",
   "dependencies": {
-    "@collab-ui/react": "^7.7.0",
+    "@collab-ui/react": "^9.6.0",
     "object-assign": "~4.1.0",
     "react": "~16.2.0",
     "react-dom": "~16.2.0",
