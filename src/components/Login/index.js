@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actions from './actions';
-import { Button, Input } from '@collab-ui/react';
+import Button from '@collab-ui/react/es/Button';
+import Input from '@collab-ui/react/es/Input';
 
 class LoginPage extends React.PureComponent {
   state = {
