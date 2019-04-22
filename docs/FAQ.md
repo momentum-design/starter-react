@@ -139,7 +139,7 @@ That said, you can of course place your tests under **test** instead. Then Jest 
 ## How do I debug?
 
 Since browsers don't currently support ES6, we're using Babel to compile our ES6 down to ES5. This means the code that runs in the browser looks different than what we wrote. But good news, a [sourcemap](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) is generated to enable easy debugging. This means your original JS source will be displayed in your browser's dev console.
-_Note:_ When you run `npm start`, no JS is minified. Why? Because minifying slows the build. So JS is only minified when you run the `npm run build` script. See [more on building for production above](https://github.com/collab-ui/starter-react/blob/master/docs/FAQ.md#how-do-i-deploy-this).
+_Note:_ When you run `npm start`, no JS is minified. Why? Because minifying slows the build. So JS is only minified when you run the `npm run build` script. See [more on building for production above](https://github.com/momentum-design/starter-react/blob/master/docs/FAQ.md#how-do-i-deploy-this).
 
 Also note that no actual physical files are written to the filesystem during the dev build. **For performance, all files exist in memory when served from the webpack server.**. Physical files are only written when you run `npm run build`.
 
@@ -176,7 +176,7 @@ To hit the external URL, all devices must be on the same LAN. So this may mean y
 
 ## What about the Redux Devtools?
 
-Install the [Redux devtools extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) in Chrome Developer Tools. If you're interested in running Redux dev tools cross-browser, Barry Staes created a [branch with the devtools incorporated](https://github.com/collab-ui/starter-react/pull/27).
+Install the [Redux devtools extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) in Chrome Developer Tools. If you're interested in running Redux dev tools cross-browser, Barry Staes created a [branch with the devtools incorporated](https://github.com/momentum-design/starter-react/pull/27).
 
 ## Hot reloading isn't working!
 

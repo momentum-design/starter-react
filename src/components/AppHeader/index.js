@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import {bindActionCreators} from 'redux';
 import { Link, NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Button from '@collab-ui/react/es/Button';
-import List from '@collab-ui/react/es/List';
-import ListItem from '@collab-ui/react/es/ListItem';
-import Topbar from '@collab-ui/react/es/Topbar';
-import TopbarNav from '@collab-ui/react/es/TopbarNav';
-import TopbarMobile from '@collab-ui/react/es/TopbarMobile';
-import TopbarRight from '@collab-ui/react/es/TopbarRight';
+import Button from '@momentum-ui/react/es/Button';
+import List from '@momentum-ui/react/es/List';
+import ListItem from '@momentum-ui/react/es/ListItem';
+import Topbar from '@momentum-ui/react/es/Topbar';
+import TopbarNav from '@momentum-ui/react/es/TopbarNav';
+import TopbarMobile from '@momentum-ui/react/es/TopbarMobile';
+import TopbarRight from '@momentum-ui/react/es/TopbarRight';
 import * as actions from '../Login/actions';
 
 class AppHeader extends Component {
@@ -60,14 +60,14 @@ class AppHeader extends Component {
     );
 
     const topbarRight = this.props.isLoggedIn ? (
-      <div className="cui-top-bar__user">
+      <div className="md-top-bar__user">
         {/* <Popover
           direction="bottom-right"
           content={topBarPopoverContent}
           popoverTrigger="Click"
           closeOnClick> */}
           <button
-            className="cui-avatar cui-button--none"
+            className="md-avatar md-button--none"
             aria-haspopup="true"
             onClick={this.logoutUser}>
             <img
@@ -79,7 +79,7 @@ class AppHeader extends Component {
         {/*</Popover> */}
       </div>
     ) : (
-      <div className="cui-top-bar__logged-out">
+      <div className="md-top-bar__logged-out">
         <Link to="/login">Log In</Link>
         <Button color="blue">Sign Up</Button>
       </div>

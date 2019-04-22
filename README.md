@@ -19,7 +19,7 @@ Why Collab UI React Starter?
 
 2. **Clone the project**
 
-    `git clone https://github.com/collab-ui/starter-react.git`.
+    `git clone https://github.com/momentum-design/starter-react.git`.
 
 3. **Run the setup script**
 

@@ -13,7 +13,7 @@ import NotFoundPage from './NotFound';
 class App extends Component {
   render() {
     return (
-      <div className="cui-main">
+      <div className="md-main">
         <AppHeader />
         <Switch>
           <Route exact path="/" component={HomePage} />

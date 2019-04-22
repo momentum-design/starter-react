@@ -19,26 +19,26 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          className="cui-panel__main"
+          className="md-panel__main"
 >
           <i
-                    className="cui-panel__image icon icon-warning_100"
+                    className="md-panel__image icon icon-warning_100"
           />
           <div
-                    className="cui-panel__title"
+                    className="md-panel__title"
           >
                     404 Not Found
           </div>
           <div
-                    className="cui-panel__message"
+                    className="md-panel__message"
           >
                     The page you requested cannot be found.
           </div>
           <div
-                    className="cui-panel__cta"
+                    className="md-panel__cta"
           >
                     <Link
-                              className="cui-button cui-button--blue"
+                              className="md-button md-button--blue"
                               replace={false}
                               to="/"
                     >
@@ -46,7 +46,7 @@ ShallowWrapper {
                     </Link>
           </div>
           <div
-                    className="cui-panel__secondary-action"
+                    className="md-panel__secondary-action"
           >
                     <a
                               href="#"
@@ -56,7 +56,7 @@ ShallowWrapper {
           </div>
 </div>,
         <div
-          className="cui-panel__footer"
+          className="md-panel__footer"
 >
           <div
                     className="footer__logo"
@@ -72,7 +72,7 @@ ShallowWrapper {
           </div>
 </div>,
       ],
-      "className": "cui-panel cui-panel--message cui-panel--full",
+      "className": "md-panel md-panel--message md-panel--full",
     },
     "ref": null,
     "rendered": Array [
@@ -83,23 +83,23 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <i
-              className="cui-panel__image icon icon-warning_100"
+              className="md-panel__image icon icon-warning_100"
 />,
             <div
-              className="cui-panel__title"
+              className="md-panel__title"
 >
               404 Not Found
 </div>,
             <div
-              className="cui-panel__message"
+              className="md-panel__message"
 >
               The page you requested cannot be found.
 </div>,
             <div
-              className="cui-panel__cta"
+              className="md-panel__cta"
 >
               <Link
-                            className="cui-button cui-button--blue"
+                            className="md-button md-button--blue"
                             replace={false}
                             to="/"
               >
@@ -107,7 +107,7 @@ ShallowWrapper {
               </Link>
 </div>,
             <div
-              className="cui-panel__secondary-action"
+              className="md-panel__secondary-action"
 >
               <a
                             href="#"
@@ -116,7 +116,7 @@ ShallowWrapper {
               </a>
 </div>,
           ],
-          "className": "cui-panel__main",
+          "className": "md-panel__main",
         },
         "ref": null,
         "rendered": Array [
@@ -125,7 +125,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "cui-panel__image icon icon-warning_100",
+              "className": "md-panel__image icon icon-warning_100",
             },
             "ref": null,
             "rendered": null,
@@ -137,7 +137,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "404 Not Found",
-              "className": "cui-panel__title",
+              "className": "md-panel__title",
             },
             "ref": null,
             "rendered": "404 Not Found",
@@ -149,7 +149,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "The page you requested cannot be found.",
-              "className": "cui-panel__message",
+              "className": "md-panel__message",
             },
             "ref": null,
             "rendered": "The page you requested cannot be found.",
@@ -161,13 +161,13 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Link
-                className="cui-button cui-button--blue"
+                className="md-button md-button--blue"
                 replace={false}
                 to="/"
 >
                 Go back to homepage
 </Link>,
-              "className": "cui-panel__cta",
+              "className": "md-panel__cta",
             },
             "ref": null,
             "rendered": Object {
@@ -176,7 +176,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "Go back to homepage",
-                "className": "cui-button cui-button--blue",
+                "className": "md-button md-button--blue",
                 "replace": false,
                 "to": "/",
               },
@@ -196,7 +196,7 @@ ShallowWrapper {
 >
                 Contact Support
 </a>,
-              "className": "cui-panel__secondary-action",
+              "className": "md-panel__secondary-action",
             },
             "ref": null,
             "rendered": Object {
@@ -235,7 +235,7 @@ ShallowWrapper {
               © 2018 Cisco and/or affiliates. All rights reserved.
 </div>,
           ],
-          "className": "cui-panel__footer",
+          "className": "md-panel__footer",
         },
         "ref": null,
         "rendered": Array [
@@ -289,26 +289,26 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="cui-panel__main"
+            className="md-panel__main"
 >
             <i
-                        className="cui-panel__image icon icon-warning_100"
+                        className="md-panel__image icon icon-warning_100"
             />
             <div
-                        className="cui-panel__title"
+                        className="md-panel__title"
             >
                         404 Not Found
             </div>
             <div
-                        className="cui-panel__message"
+                        className="md-panel__message"
             >
                         The page you requested cannot be found.
             </div>
             <div
-                        className="cui-panel__cta"
+                        className="md-panel__cta"
             >
                         <Link
-                                    className="cui-button cui-button--blue"
+                                    className="md-button md-button--blue"
                                     replace={false}
                                     to="/"
                         >
@@ -316,7 +316,7 @@ ShallowWrapper {
                         </Link>
             </div>
             <div
-                        className="cui-panel__secondary-action"
+                        className="md-panel__secondary-action"
             >
                         <a
                                     href="#"
@@ -326,7 +326,7 @@ ShallowWrapper {
             </div>
 </div>,
           <div
-            className="cui-panel__footer"
+            className="md-panel__footer"
 >
             <div
                         className="footer__logo"
@@ -342,7 +342,7 @@ ShallowWrapper {
             </div>
 </div>,
         ],
-        "className": "cui-panel cui-panel--message cui-panel--full",
+        "className": "md-panel md-panel--message md-panel--full",
       },
       "ref": null,
       "rendered": Array [
@@ -353,23 +353,23 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <i
-                className="cui-panel__image icon icon-warning_100"
+                className="md-panel__image icon icon-warning_100"
 />,
               <div
-                className="cui-panel__title"
+                className="md-panel__title"
 >
                 404 Not Found
 </div>,
               <div
-                className="cui-panel__message"
+                className="md-panel__message"
 >
                 The page you requested cannot be found.
 </div>,
               <div
-                className="cui-panel__cta"
+                className="md-panel__cta"
 >
                 <Link
-                                className="cui-button cui-button--blue"
+                                className="md-button md-button--blue"
                                 replace={false}
                                 to="/"
                 >
@@ -377,7 +377,7 @@ ShallowWrapper {
                 </Link>
 </div>,
               <div
-                className="cui-panel__secondary-action"
+                className="md-panel__secondary-action"
 >
                 <a
                                 href="#"
@@ -386,7 +386,7 @@ ShallowWrapper {
                 </a>
 </div>,
             ],
-            "className": "cui-panel__main",
+            "className": "md-panel__main",
           },
           "ref": null,
           "rendered": Array [
@@ -395,7 +395,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "cui-panel__image icon icon-warning_100",
+                "className": "md-panel__image icon icon-warning_100",
               },
               "ref": null,
               "rendered": null,
@@ -407,7 +407,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "404 Not Found",
-                "className": "cui-panel__title",
+                "className": "md-panel__title",
               },
               "ref": null,
               "rendered": "404 Not Found",
@@ -419,7 +419,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "The page you requested cannot be found.",
-                "className": "cui-panel__message",
+                "className": "md-panel__message",
               },
               "ref": null,
               "rendered": "The page you requested cannot be found.",
@@ -431,13 +431,13 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Link
-                  className="cui-button cui-button--blue"
+                  className="md-button md-button--blue"
                   replace={false}
                   to="/"
 >
                   Go back to homepage
 </Link>,
-                "className": "cui-panel__cta",
+                "className": "md-panel__cta",
               },
               "ref": null,
               "rendered": Object {
@@ -446,7 +446,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "Go back to homepage",
-                  "className": "cui-button cui-button--blue",
+                  "className": "md-button md-button--blue",
                   "replace": false,
                   "to": "/",
                 },
@@ -466,7 +466,7 @@ ShallowWrapper {
 >
                   Contact Support
 </a>,
-                "className": "cui-panel__secondary-action",
+                "className": "md-panel__secondary-action",
               },
               "ref": null,
               "rendered": Object {
@@ -505,7 +505,7 @@ ShallowWrapper {
                 © 2018 Cisco and/or affiliates. All rights reserved.
 </div>,
             ],
-            "className": "cui-panel__footer",
+            "className": "md-panel__footer",
           },
           "ref": null,
           "rendered": Array [

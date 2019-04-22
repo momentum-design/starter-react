@@ -10,7 +10,7 @@ describe('<NotFoundPage />', () => {
 
   it('should have a header called \'404 Not Found\'', () => {
     const wrapper = shallow(<NotFoundPage />);
-    const actual = wrapper.find('.cui-panel__title').text();
+    const actual = wrapper.find('.md-panel__title').text();
     const expected = '404 Not Found';
 
     expect(actual).toEqual(expected);
@@ -18,7 +18,7 @@ describe('<NotFoundPage />', () => {
 
   it('should have a message with \'The page you requested cannot be found.\'', () => {
     const wrapper = shallow(<NotFoundPage />);
-    const actual = wrapper.find('.cui-panel__message').text();
+    const actual = wrapper.find('.md-panel__message').text();
     const expected = 'The page you requested cannot be found.';
 
     expect(actual).toEqual(expected);
