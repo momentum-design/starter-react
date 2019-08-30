@@ -4,12 +4,12 @@ A comprehensive starter kit for rapid application development using Collab UI Re
 
 Why Collab UI React Starter?
 
-1. **One command to get started** - Type `npm start` to start development in your default browser.
+1. **One command to get started** - Type `yarn start` to start development in your default browser.
 2. **Rapid feedback** - Each time you hit save, changes hot reload and linting and automated tests run.
 3. **One command line to check** - All feedback is displayed on a single command line.
 4. **No more JavaScript fatigue** - Starter React uses [the most popular and powerful libraries](#technologies) for working with React.
 5. **Working example app** - The included example app shows how this all works together.
-6. **Automated production build** - Type `npm run build` to do all this:
+6. **Automated production build** - Type `yarn run build` to do all this:
 
 # Get Started
 
@@ -23,11 +23,11 @@ Why Collab UI React Starter?
 
 3. **Run the setup script**
 
-    `npm install`
+    `yarn install`
 
 4. **Run the example app**
 
-    `npm start -s`
+    `yarn start -s`
 
     This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically. Note: The -s flag is optional. It enables silent mode which suppresses unnecessary messages during the build.
 
@@ -72,13 +72,13 @@ Why Collab UI React Starter?
 ## Having Issues? Try these things first
 
 1. Make sure you ran all steps in [Get started](#get-started) including the [initial machine setup](#initial-machine-setup).
-2. Run `npm install` - If you forget to do this, you'll see this: `babel-node: command not found`.
+2. Run `yarn install` - If you forget to do this, you'll see this: `babel-node: command not found`.
 3. Install the latest version of Node. Or install [Node 5.12.0](https://nodejs.org/download/release/v5.12.0/) if you're having issues on Windows. Node 6 has issues on some Windows machines.
 4. Make sure files with names that begin with a dot (.editorconfig, .gitignore, .npmrc) are copied to the project directory root. This is easy to overlook if you copy this repository manually.
 5. Don't run the project from a symbolic link. It may cause issues with file watches.
 6. Delete any .eslintrc that you're storing in your user directory. Also, disable any ESLint plugin / custom rules that you've enabled within your editor. These will conflict with the ESLint rules defined in this project.
 7. Make sure you don't have NODE_ENV set to production on your machine. If you do then the development dependencies won't be installed.
-8. Install watchman with `brew install watchman` if you are having the following error after an initial `npm start -s`:
+8. Install watchman with `brew install watchman` if you are having the following error after an initial `yarn start -s`:
 
     ```bash
     2017-09-05 00:44 node[68587] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)
@@ -92,17 +92,17 @@ Why Collab UI React Starter?
         at FSEvent.FSWatcher._handle.onchange (fs.js:1406:11)
     ```
 
-9. Tip: Things to check if you get an `npm run lint` error or build error:
+9. Tip: Things to check if you get an `yarn run lint` error or build error:
 
     * If ESW found an error or warning in your project (e.g. console statement or a missing semi-colon), the lint thread will exit with `Exit status 1`. To fix:
 
-      1. Change the `npm run lint` script to `"esw webpack.config.* src tools; exit 0"`
-      1. Change the `npm run lint:watch` script to `"esw webpack.config.* src tools --watch; exit 0"`
+      1. Change the `yarn run lint` script to `"esw webpack.config.* src tools; exit 0"`
+      1. Change the `yarn run lint:watch` script to `"esw webpack.config.* src tools --watch; exit 0"`
 
       > Note: Adding `exit 0` will allow the npm scripts to ignore the status 1 and allow ESW to print all warnings and errors.
     * Ensure the `eslint`/`esw` globally installed version matches the version used in the project. This will ensure the `esw` keyword is resolved.
 
-10. Rebuild node-sass with `npm rebuild node-sass` if you are having and error like `Node Sass does not yet support your current environment on macOS XXX` after an initial `npm start -s`.
+10. Rebuild node-sass with `yarn rebuild node-sass` if you are having and error like `Node Sass does not yet support your current environment on macOS XXX` after an initial `yarn start -s`.
 
 ---
 
