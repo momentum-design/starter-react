@@ -1147,39 +1147,39 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@momentum-ui/core@^16.5.6":
-  version "16.5.6"
-  resolved "https://registry.npmjs.org/@momentum-ui/core/-/core-16.5.6.tgz#c8d0405025ada85f5a423fe1545e155b6b055305"
-  integrity sha512-2cnkrskDzpzWihSAqJQxBOyQqbXSm2q1xNd0jwmuoBfY8JcC2yCgPA1/o1DJ/TXBW2RH5U9P6oAF2BVAa52evw==
+"@momentum-ui/core@^18.5.2":
+  version "18.5.2"
+  resolved "https://registry.yarnpkg.com/@momentum-ui/core/-/core-18.5.2.tgz#8fb980655f4fa3ba7ed4d65f08894e76e2b26f1f"
+  integrity sha512-fo3eC5EgWUPmHomkH3Du0utiO8s4okSsJL/OmHO88m7EGkVIDMi/PGB//y3PmW9xEwe6jLsTdnE55OD/mdWl6g==
   dependencies:
-    "@momentum-ui/icons" "^6.25.0"
+    "@momentum-ui/icons" "^7.5.0"
 
-"@momentum-ui/icons@^6.25.0":
-  version "6.25.0"
-  resolved "https://registry.npmjs.org/@momentum-ui/icons/-/icons-6.25.0.tgz#6a287956dd50d4692dc1fa8b50f428ce9946559a"
-  integrity sha512-lI9LekHrYzCStEOKxXCZciTG+c072bSxgcX8qREkHJKWlTckrfr8nDsL55hslFkc0fA/OblFkxGmhXhZ4pP8fg==
+"@momentum-ui/icons@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@momentum-ui/icons/-/icons-7.5.0.tgz#9856f7c2a0f1471f23940303e8b04e6ec22edcc8"
+  integrity sha512-zNVfjsnIddDJRjtLR8oRCYHhXo5HSfS8LRz+kpasgtpDAKRiFxBKsHUgAnomy8YoBEhJCBNM1g6HFZxzIh4rsg==
 
-"@momentum-ui/react@^20.3.8":
-  version "20.3.8"
-  resolved "https://registry.npmjs.org/@momentum-ui/react/-/react-20.3.8.tgz#d5e47455b08f5ffe2eba7aa3226d51d6ec0f31a8"
-  integrity sha512-4zF217709JHsOqYhPOPLWEfUMOGzhrSC0w5czXTzMLzD9nFpHQ7wwPwhYXjTm9SNFvfKg2PjocI5x6o+6aHLlg==
+"@momentum-ui/react@^23.0.18":
+  version "23.0.18"
+  resolved "https://registry.yarnpkg.com/@momentum-ui/react/-/react-23.0.18.tgz#82e8986c70c957a1ac0ea454db14d527ea59bd06"
+  integrity sha512-vh/MpudYQBjDXrJVS4Y/i0VnN9p8WAI2RKaPr1Of3cCkdCFjjbMNH/qIOS5Y4bjRifO2abjJ9wEJKKzY7TusGQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
-    "@momentum-ui/core" "^16.5.6"
-    "@momentum-ui/utils" "^6.0.3"
+    "@momentum-ui/core" "^18.5.2"
+    "@momentum-ui/utils" "^6.0.4"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
-    moment "^2.22.0"
+    moment "^2.24.0"
     object-assign "4.1.1"
     react-aria-modal "^2.11.1"
     react-context-toolbox "^2.0.2"
     react-focus-lock "^1.19.1"
     react-uid "^2.2.0"
 
-"@momentum-ui/utils@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.npmjs.org/@momentum-ui/utils/-/utils-6.0.3.tgz#45ac9ecc972786ffbe9965420fa461c0b2168296"
-  integrity sha512-NysueqA++LhBAEb5/6d+ZVaxQH1996uG4oIhXDUmcIZd2Rrdv1a9lSgMOMYAIgk2ZtZKYrnLveo4Gd095E60vQ==
+"@momentum-ui/utils@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@momentum-ui/utils/-/utils-6.0.4.tgz#f60c216ad9d0c7b5cf922a9c2195c5988589f563"
+  integrity sha512-mgTbwgog/rfTyz+SF+EB6Q3H1mLzFhIZKsb1XFjPvdcfYYnzVGws2UN5/GJiLbgHZj02n7vDhq2FESl4yD0V4w==
   dependencies:
     "@gfx/zopfli" "^1.0.11"
     babel-plugin-transform-object-rest-spread "^6.26.0"
@@ -6247,9 +6247,9 @@ mockdate@~2.0.1:
   resolved "https://registry.npmjs.org/mockdate/-/mockdate-2.0.5.tgz#70c6abf9ed4b2dae65c81dfc170dd1a5cec53620"
   integrity sha512-ST0PnThzWKcgSLyc+ugLVql45PvESt3Ul/wrdV/OPc/6Pr8dbLAIJsN1cIp41FLzbN+srVTNIRn+5Cju0nyV6A==
 
-moment@^2.22.0:
+moment@^2.24.0:
   version "2.24.0"
-  resolved "https://registry.npmjs.org/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 moo@^0.4.3:

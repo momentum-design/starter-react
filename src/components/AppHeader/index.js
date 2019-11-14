@@ -1,14 +1,14 @@
-import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
-import {bindActionCreators} from 'redux';
-import { Link, NavLink } from 'react-router-dom';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
+import { Link, NavLink } from 'react-router-dom';
+import {bindActionCreators} from 'redux';
 import Button from '@momentum-ui/react/es/Button';
 import List from '@momentum-ui/react/es/List';
 import ListItem from '@momentum-ui/react/es/ListItem';
 import Topbar from '@momentum-ui/react/es/Topbar';
-import TopbarNav from '@momentum-ui/react/es/TopbarNav';
 import TopbarMobile from '@momentum-ui/react/es/TopbarMobile';
+import TopbarNav from '@momentum-ui/react/es/TopbarNav';
 import TopbarRight from '@momentum-ui/react/es/TopbarRight';
 import * as actions from '../Login/actions';
 
@@ -88,7 +88,7 @@ class AppHeader extends Component {
     return (
       <Fragment>
         <Topbar
-          title="Collab UI React Starter"
+          title="Momentum UI React Starter"
           color="dark"
           image={logoIcon}
           anchor="/"

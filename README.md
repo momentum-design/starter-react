@@ -1,8 +1,8 @@
-# Collab UI React Starter
+# Momentum UI React Starter
 
-A comprehensive starter kit for rapid application development using Collab UI React.
+A comprehensive starter kit for rapid application development using Momentum UI React.
 
-Why Collab UI React Starter?
+Why Momentum UI React Starter?
 
 1. **One command to get started** - Type `yarn start` to start development in your default browser.
 2. **Rapid feedback** - Each time you hit save, changes hot reload and linting and automated tests run.
@@ -108,7 +108,7 @@ Why Collab UI React Starter?
 
 ## Technologies
 
-Collab UI React Starter offers a rich development experience using the following technologies:
+Momentum UI React Starter offers a rich development experience using the following technologies:
 
 | **Tech** | **Description** |**Learn More**|
 |----------|-------|---|
