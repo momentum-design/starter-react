@@ -13,20 +13,20 @@
     "preview": "vite preview"
   },
   "resolutions": {
-    "@momentum-design/brand-visuals": "0.16.0",
-    "@momentum-design/components": "0.104.15",
-    "@momentum-design/fonts": "0.2.3",
-    "@momentum-design/icons": "0.34.0",
-    "@momentum-design/illustrations": "0.2.4",
-    "@momentum-design/tokens": "0.7.0"
+    "@momentum-design/brand-visuals": "0.33.0",
+    "@momentum-design/components": "0.133.31",
+    "@momentum-design/fonts": "0.2.5",
+    "@momentum-design/icons": "0.54.0",
+    "@momentum-design/illustrations": "0.3.0",
+    "@momentum-design/tokens": "0.10.1"
   },
   "dependencies": {
-    "@momentum-design/brand-visuals": "0.16.0",
-    "@momentum-design/components": "0.104.15",
-    "@momentum-design/fonts": "0.2.3",
-    "@momentum-design/icons": "0.34.0",
-    "@momentum-design/illustrations": "0.2.4",
-    "@momentum-design/tokens": "0.7.0",
+    "@momentum-design/brand-visuals": "0.33.0",
+    "@momentum-design/components": "0.133.31",
+    "@momentum-design/fonts": "0.2.5",
+    "@momentum-design/icons": "0.54.0",
+    "@momentum-design/illustrations": "0.3.0",
+    "@momentum-design/tokens": "0.10.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
