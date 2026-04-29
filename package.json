@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@momentum-design/brand-visuals": "0.33.0",
-    "@momentum-design/components": "0.133.31",
+    "@momentum-design/components": "^0.16.9",
     "@momentum-design/fonts": "0.2.5",
     "@momentum-design/icons": "0.54.0",
     "@momentum-design/illustrations": "0.3.0",
